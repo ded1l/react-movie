@@ -5,7 +5,7 @@ const Maincards = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    async function fetchMovies() {
+     const fetchMovies= async()=>{
       try {
         const response = await fetch("https://api.themoviedb.org/3/movie/popular?language=en-US&page=1&api_key=9b0c48a0c93031ca5422f472c376946d");
         const data = await response.json();
@@ -23,7 +23,7 @@ const Maincards = () => {
     <Carousel>
       {movies.map((movie) => (
         <CarouselItem key={movie.id}>
-          <img src={`https://image.tmdb.org/t/p/w780/${movie.poster_path}`} alt={movie.title} />
+          <img src={`https://image.tmdb.org/t/p/w1280/${movie.backdrop_path}`} alt={movie.title} />
           <Carousel.Caption>
             <h3>{movie.title}</h3>
             <p>{movie.overview}</p>
