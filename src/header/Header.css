@@ -1,0 +1,32 @@
+
+nav{padding: 0 0.1em;
+    
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li h1{
+margin: 0% auto;
+}
+ul li{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
+    
+}
+li .input-container input {
+
+    border: none;
+    color: white;
+    background-color: rgb(24, 51, 65);
+    font-size: 1.2em;
+    padding: 0.1em 0.5em;
+    border-radius: 0.1em;
+    box-shadow: 0 0 0.5em rgb(17, 24, 56);
+  }
+  
+
+

@@ -1,0 +1,17 @@
+
+.overlay{
+    margin: 8em 0.1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.movie-card{
+    background-color:rgb(53, 141, 141);
+    margin: 0.5em 5em;
+    padding: 0.9em;
+
+    
+    border-radius: 2em;
+
+
+}
