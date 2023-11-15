@@ -1,6 +1,8 @@
-# React + Vite = great movie app :)
+# React + Vite +tmdb api = great movie app :)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+not ready yet!
+
+
 
 Currently, two official plugins are available:
 
