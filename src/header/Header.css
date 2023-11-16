@@ -26,15 +26,20 @@ li .input-container input {
     color: white;
     background-color: rgb(24, 51, 65);
     font-size: 1em;
-    padding: 1em 4em;
-    margin: 0em 4em 0 0;
+    padding: 1em 4em 1em 1em;
+  
     border-radius: 0.5em;
-    box-shadow: 0 0 0.5em rgb(17, 24, 56);
+   
   }
   
+  .input-container{
+    margin-right: 8em;
+    box-shadow: 0 0 0.5em rgb(17, 24, 56);
+    border-radius: 8px;
+
+  }
 
 
-  /* Header.css */
 
 nav ul {
     display: flex;
@@ -67,4 +72,11 @@ nav ul {
     nav ul li .input-container input {
       width: 300px;
     }
+  }
+  button{
+    border: 1px solid yellow;
+    border-radius: 8px;
+    background-color: white;
+    padding: 0.7em ;
+
   }

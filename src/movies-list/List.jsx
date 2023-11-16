@@ -1,4 +1,3 @@
-import { Card } from "react-bootstrap";
 import "./List.css"
 import { useState, useEffect } from 'react';
 
@@ -12,7 +11,7 @@ const List=()=> {
       const datalist=await response.json();
       setlistCard(datalist.results);
     }
-    catch{error}{
+    catch(error){
       console.log(error);
     }
   }

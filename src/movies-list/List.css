@@ -27,48 +27,20 @@
 .caption p{
     color: yellow;
 }
+.genre{
+  display: inline-block;
+    color: yellow;
+    font-size: 1.5em;
+    font-weight: bold;
 
-/* List.css */
+}
+.listGenre{
+    display: inline-block;
+    color: yellow;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 1em;
+}
 
-/* .movie-card {
-    display: grid;
-    grid-template-columns: repeat(auto, minmax(200px, 8fr));
-    gap: 1rem;
-  } */
-  
-  .inside {
-    /* styles for the movie card */
-  }
-  
-  @media (min-width: 576px) {
-    .inside {
-        width: 320px;
-        height: 538px;
-      /* adjust styles for the movie card on small devices */
-      
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .inside {
-        width: 340px;
-        height: 500px;
-      /* adjust styles for the movie card on medium devices */
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .inside {
-        width: 400px;
-        height: 550px;
-      /* adjust styles for the movie card on large devices */
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .inside {
-        width: 320px;
-        height: 500px;
-      /* adjust styles for the movie card on extra large devices */
-    }
-  }
+
+ 

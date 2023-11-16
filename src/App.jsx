@@ -14,13 +14,9 @@ function App() {
       <Header />
 
       <div>
-        <div className="container">
-          {/* <div className="img-slider">
-            hello
-          </div> */}
+      
           <Maincards />         
           <List />
-        </div>
      
       </div>
     </>
