@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Carousel, CarouselItem } from 'react-bootstrap';
-
+import "./Maincards.css"
 const Maincards = () => {
   const [movies, setMovies] = useState([]);
 
@@ -11,7 +11,7 @@ const Maincards = () => {
         const data = await response.json();
         setMovies(data.results);
       } catch (error) {
-        console.log(error); // Log any errors to the console
+        console.log(error); 
       }
     }
 

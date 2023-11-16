@@ -42,7 +42,6 @@ const Header=()=>{
             <img src={`https://image.tmdb.org/t/p/w300/${collection.poster_path}`} alt={collection.name} />
             <h3>{collection.name}</h3>
             <p>{collection.overview}</p>
-            {/* Add more fields or UI elements for the collection */}
           </div>
            ))}
         </div>

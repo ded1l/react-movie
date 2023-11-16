@@ -1,6 +1,4 @@
-import { useState } from "react";
 
-// import { Linter } from "eslint";
 import "./App.css";
 import Header from "./header/Header";
 import List from "./movies-list/List";
