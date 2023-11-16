@@ -1,0 +1,28 @@
+.carousel-item img {
+    height: 250px; /* default height */
+    object-fit: cover;
+  }
+  
+  @media (min-width: 576px) {
+    .carousel-item img {
+      height: 280px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .carousel-item img {
+      height: 500px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .carousel-item img {
+      height: 600px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .carousel-item img {
+      height: 700px;
+    }
+  }
