@@ -1,24 +1,18 @@
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from './home';
+import Header from './header/Header';
 
-import "./App.css";
-import Header from "./header/Header";
-import List from "./movies-list/List";
-import Maincards from "./carousel/Maincards";
-
-function App() {
- 
-
+const App = () => {
   return (
-    <>
+    <div>
       <Header />
-
-      <div>
-      
-          <Maincards />         
-          <List />
-     
-      </div>
-    </>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* Add other routes here */}
+      </Routes>
+    </div>
   );
-}
+};
 
 export default App;
