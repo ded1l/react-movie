@@ -23,7 +23,7 @@ const Maincards = () => {
         {movies.map((movie) => (
           <CarouselItem key={movie.id}>
             <img
-              className="w-full object-cover h-[250px] sm:h-[280px] md:h-[500px] "
+              className="w-full object-cover h-[250px] sm:h-[280px] md:h-[680px] "
               src={`https://image.tmdb.org/t/p/w1280/${movie.backdrop_path}`}
               alt={movie.title}
             />
